@@ -1,9 +1,9 @@
 import XCTest
-@testable import ExampleSynergySQLiteC
+@testable import SynergySQLiteC
 
-final class ExampleSynergySQLiteCTests: XCTestCase {
+final class SynergySQLiteCTests: XCTestCase {
     func testExample() {
-        print("\nExampleSynergySQLiteCTests.testExample()")
+        print("\nSynergySQLiteCTests.testExample()")
         print("SQLITE_OK=\(SQLITE_OK)")
         print("SQLITE_UTF8=\(SQLITE_UTF8)")
         print("SQLITE_VERSION=\(SQLITE_VERSION)")

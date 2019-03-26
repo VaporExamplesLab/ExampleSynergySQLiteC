@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "ExampleSynergySQLiteC",
+    name: "SynergySQLiteC",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
-            name: "ExampleSynergySQLiteC",
+            name: "SynergySQLiteC",
             type: .static,
-            targets: ["ExampleSynergySQLiteC"]),
+            targets: ["SynergySQLiteC"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,11 +20,11 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
-            name: "ExampleSynergySQLiteC",
+            name: "SynergySQLiteC",
             dependencies: []),
         .testTarget(
-            name: "ExampleSynergySQLiteCTests",
-            dependencies: ["ExampleSynergySQLiteC"]),
+            name: "SynergySQLiteCTests",
+            dependencies: ["SynergySQLiteC"]),
     ],
     swiftLanguageVersions: [.v4_2]
 )

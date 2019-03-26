@@ -2,7 +2,7 @@
 // module.modulemap 
 //
 
-module ExampleSynergySQLiteC {
+module SynergySQLiteC {
     // Specify the header file which corresponds to this module
     // An umbrella header includes all of the headers within its directory and subdirectories.
     // An umbrella header eliminates the need to write header declarations for every library header.

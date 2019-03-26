@@ -1,7 +1,7 @@
 import XCTest
 
-import ExampleSynergySQLiteCTests
+import SynergySQLiteCTests
 
 var tests = [XCTestCaseEntry]()
-tests += ExampleSynergySQLiteCTests.allTests()
+tests += SynergySQLiteCTests.allTests()
 XCTMain(tests)
