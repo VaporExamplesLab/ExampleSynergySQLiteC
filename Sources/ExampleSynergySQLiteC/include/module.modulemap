@@ -1,0 +1,15 @@
+//
+// module.modulemap 
+//
+
+module ExampleSynergySQLiteC {
+    // Specify the header file which corresponds to this module
+    // An umbrella header includes all of the headers within its directory and subdirectories.
+    // An umbrella header eliminates the need to write header declarations for every library header.
+    // A given directory can only contain a single umbrella header.
+    umbrella header "sqlite3ext.h"
+    
+    // Wildcard re-exports all of the modules that were imported in the actual header file.
+    // Insures that importing this module implicitly imports all modules requird by this module.
+    export *
+}
