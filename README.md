@@ -3,7 +3,7 @@
 _SQLite module package for Swift (built from C source)._
 
 <a id="toc"></a>
-[Subproject Usage](SubprojectUsage) •
+[Subproject Usage](#SubprojectUsage) •
 [Original Setup](#OriginalSetup) •
 [Ubuntu](#Ubuntu) •
 [Resources](#Resources)
