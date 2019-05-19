@@ -8,7 +8,7 @@ _SQLite module package for Swift (built from C source)._
 [Ubuntu](#Ubuntu) •
 [Resources](#Resources)
 
-## Subproject Usage <a id="SubprojectUsage">[▴](#toc)</a>
+## Subproject Usage <a id="SubprojectUsage"></a>[▴](#toc)
 
 _Steps to use `SynergySQLiteC` as a subproject in another Xcode project._
 
@@ -42,7 +42,7 @@ _Steps to use `SynergySQLiteC` as a subproject in another Xcode project._
     Note: If needed, first drag & drop add `SynergySQLiteC.h` to the project.  
 
 
-## Original Setup <a id="OriginalSetup">[▴](#toc)</a>
+## Original Setup <a id="OriginalSetup"></a>[▴](#toc)
 
 _Steps taken to initial setup this project._
 
@@ -119,7 +119,7 @@ Fix for _`warning: ambiguous expansion of macro 'MAX'`_ or _`'MIN'`_. Search `sq
 
 Added SynergySQLiteC.h umbrella header since, at the time of this writing, an umbrella header is not automatically generated for a C-only package.
 
-## Ubuntu  <a id="Ubuntu">[▴](#toc)</a>
+## Ubuntu  <a id="Ubuntu"></a>[▴](#toc)
 
 `swift build` and `swift test` run OK on macOS. `swift build` on Ubuntu produces warnings, however `swift test` executes and passes.
 
@@ -134,7 +134,7 @@ Compile SynergySQLiteC sqlite3.c
 2 warnings generated.
 ```
 
-## Resources <a id="Resources">[▴](#toc)</a>
+## Resources <a id="Resources"></a>[▴](#toc)
 
 * [SQLite: download page ⇗](https://sqlite.org/download.html)
 
